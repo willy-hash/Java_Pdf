@@ -14,6 +14,7 @@ public class Main {
 
         Faker faker = new Faker();
 
+        //all lines code in try-catch are for testing ******************************************************************
         try{
             User user = new User(faker.name().fullName(), faker.name().lastName(), faker.address().fullAddress(), faker.phoneNumber().phoneNumber());
 
